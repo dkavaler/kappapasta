@@ -1,2 +1,2 @@
-# express-barebones-boilerplate
-An extremely barebones boilerplate for Node and Express
+# kappapasta
+Real-time display of current Twitch copypasta stats
