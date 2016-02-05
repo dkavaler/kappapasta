@@ -6,6 +6,7 @@ var config = require('./config');
 
 
 /* Setup Twitch related stuff */
+// TODO: handle ASCII art. tmi.js doesn't do this right.
 var twitchService = require('./services/twitch')(config);
 twitchService.start();
 
