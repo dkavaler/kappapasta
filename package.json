@@ -1,0 +1,31 @@
+{
+  "name": "express-barebones-boilerplate",
+  "version": "1.0.0",
+  "description": "Extremely barebones boilerplate for Node and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkavaler/express-barebones-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "boilerplate"
+  ],
+  "author": "David Kavaler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkavaler/express-barebones-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dkavaler/express-barebones-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
