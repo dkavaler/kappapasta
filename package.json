@@ -22,10 +22,14 @@
   },
   "homepage": "https://github.com/dkavaler/express-barebones-boilerplate#readme",
   "dependencies": {
+    "bluebird": "^3.2.1",
     "body-parser": "^1.14.2",
     "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "jade": "^1.11.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.0",
+    "tmi.js": "0.0.24"
   }
 }
