@@ -6,7 +6,11 @@ var config = require('./config');
 
 
 /* Setup Twitch related stuff */
-// TODO: handle ASCII art. tmi.js doesn't do this right.
+// TODO:
+// 1) Figure out how to keep track of pastas
+// 2) Set something up to pull the top 15 channels again
+//  every X minutes
+// 2)
 var twitchService = require('./services/twitch')(config);
 twitchService.start();
 
